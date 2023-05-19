@@ -1,0 +1,109 @@
+/* Общие стили */
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100hv;
+  justify-content: center;
+  align-items: center;
+}
+
+a, p, h1,h2,h3 {
+  text-decoration: none;
+  color: #99694b;
+}
+/* Общие стили */
+
+/* Стили для header */
+.header{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid gold;
+  border-top: 5px solid gold;
+ 
+}
+
+.header_elements_first{
+  width: 70%;
+  height: 100%;
+  padding-left: 7%;
+  font-family: Agora, serif;
+  font-weight: 600;
+  text-align: left;
+  color: #99694b; 
+
+}
+
+.header_elements_second {
+  display: flex;
+  justify-content: space-between;
+  max-width: 25%;
+  height: 50%;
+}
+
+
+.btn_title {
+  display: inline-block;	
+  margin-left: 10px;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #99694b;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	transition: box-shadow 0.2s; 
+}
+
+.btn_text{
+  width: 10%;
+}
+
+.search {
+  display: none;
+  width: 100%;
+}
+
+/* Стили для header */
+
+.main{
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_title{
+  text-align: center;
+  width: 100%;
+}
+.card {
+  width: 29%;
+  text-align: center;
+  margin: 1%;
+}
+
+.card_img{
+  width: 80%;
+  border: 20px solid rgb(245, 245, 173);
+}
+
+.card_title{
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
